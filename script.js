@@ -3,7 +3,7 @@ const containerElement = document.querySelector('.container');
 
 class Card {
     // your code goes here
-    constructor(title, id, name, types, lore, image) {
+    constructor(id, name, types, lore, image) {
         this.id = id;
         this.name = name;
         this.types = types;
