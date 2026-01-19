@@ -4,7 +4,6 @@ const containerElement = document.querySelector('.container');
 class Card {
     // your code goes here
     constructor(title, id, name, types, lore, image) {
-        this.title = title;
         this.id = id;
         this.name = name;
         this.types = types;
@@ -15,10 +14,6 @@ class Card {
     // add your class functions here
 
     createCardElement() {
-        // Pokémon name
-        const titleEl = document.createElement('h1');
-        titleEl.innerText = this.title;
-        card.appendChild(titleEl);
 
         // Create outer card container
         const card = document.createElement('div');
