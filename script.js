@@ -66,7 +66,6 @@ function displayCards(cards) {
     containerElement.innerHTML = '';
     cards.forEach(pokemon => {
         const card = new Card(
-            pokemon.title,
             pokemon.id,
             pokemon.name,
             pokemon.types,
