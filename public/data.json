@@ -4,34 +4,34 @@
     "name": "Articuno",
     "types": ["Ice", "Flying"],
     "lore": "Articuno is a Legendary bird Pokémon that can control ice. It is said to appear to doomed travelers lost in icy regions.",
-    "image": "Images/Articuno.jpg"
+    "image": "/Images/Articuno.jpg"
   },
   {
     "id": 145,
     "name": "Zapdos",
     "types": ["Electric", "Flying"],
     "lore": "Zapdos is a Legendary bird Pokémon that has the ability to control electricity. It is said to nest in thunderclouds and appear during storms.",
-    "image": "Images/Zapdos.jpg"
+    "image": "/Images/Zapdos.jpg"
   },
   {
     "id": 146,
     "name": "Moltres",
     "types": ["Fire", "Flying"],     
     "lore": "Moltres is a Legendary bird Pokémon that embodies fire. It is said to bring early spring to the wintry lands it visits.",
-    "image": "Images/Moltres.jpg"
+    "image": "/Images/Moltres.jpg"
   },
   {
     "id": 249,
     "name": "Lugia",
     "types": ["Psychic", "Flying"],    
     "lore": "Lugia is said to be the guardian of the seas. It slumbers at the bottom of the ocean to avoid causing storms with its power.",
-    "image": "Images/Lugia.jpg"
+    "image": "/Images/Lugia.jpg"
   },
   {
     "id": 250,
     "name": "Ho-Oh",
     "types": ["Fire", "Flying"],  
     "lore": "Ho-Oh is said to bring happiness to those who see it. Its feathers glow in seven colors depending on the angle at which they are struck by light.",
-    "image": "Images/Ho-oh.jpg"
+    "image": "/Images/Ho-oh.jpg"
   }
 ]
