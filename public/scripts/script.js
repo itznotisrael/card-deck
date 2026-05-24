@@ -1,6 +1,10 @@
 // insert card elements here
 const containerElement = document.querySelector('.container');
 
+//Title
+const titleEl = document.querySelector('.title');
+titleEl.textContent = "Card Deck";
+
 class Card {
     // your code goes here
     constructor(id, name, types, lore, image) {
@@ -78,7 +82,3 @@ function displayCards(cards) {
 
 //Run the Fetch function
 getData();
-
-
-
-
