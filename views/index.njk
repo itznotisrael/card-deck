@@ -1,5 +1,100 @@
 {% extends "header.njk" %}
+
 {% block content %}
-    <h1 class="title"></h1>
-    <div class="container"></div>
+
+<main class="app">
+
+    <header class="hero">
+        <p class="eyebrow">Pokémon Collection</p>
+
+        <h1 class="title">
+            Pokémon Card Deck
+        </h1>
+
+        <p class="subtitle">
+            Explore, filter, and discover your favorite Pokémon.
+        </p>
+    </header>
+
+
+    <!-- Controls -->
+
+    <section class="controls">
+
+        <div class="search-container">
+
+            <label for="search">
+                Search Pokémon
+            </label>
+
+            <input type="search" id="search" placeholder="Search by name..." autocomplete="off" >
+
+        </div>
+
+
+        <div class="filter-container">
+
+            <label for="type-filter">
+                Type
+            </label>
+
+            <select id="type-filter">
+
+                <option value="all">
+                    All Types
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="sort-container">
+
+            <label for="sort">
+                Sort By
+            </label>
+
+            <select id="sort">
+
+                <option value="id-asc">
+                    ID: Low → High
+                </option>
+
+                <option value="id-desc">
+                    ID: High → Low
+                </option>
+
+                <option value="name-asc">
+                    Name: A → Z
+                </option>
+
+                <option value="name-desc">
+                    Name: Z → A
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+
+    <!-- Pokémon Cards -->
+
+    <section class="container" aria-live="polite"></section>
+
+
+    <!-- Card Details Modal -->
+
+    <div id="card-modal" class="modal" role="dialog" aria-modal="true" aria-label="Pokémon details">
+
+        <div class="modal-content">
+            <!-- JavaScript inserts content -->
+        </div>
+
+    </div>
+
+</main>
+
 {% endblock %}

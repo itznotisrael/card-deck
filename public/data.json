@@ -1,4 +1,32 @@
 [
+    {
+    "id": 1,
+    "name": "Bulbasaur",
+    "types": ["Grass", "Poison"],
+    "lore": "Bulbasaur is a Grass/Poison-type Pokémon that carries a mysterious seed on its back.",
+    "image": "/Images/bulbasaur.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "types": ["Fire"],
+    "lore": "Charmander is a Fire-type Pokémon whose tail flame reflects its vitality.",
+    "image": "/Images/Charmander.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "types": ["Water"],
+    "lore": "Squirtle is a Water-type Pokémon known for retreating into its hard shell.",
+    "image": "/Images/Squirtle.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "types": ["Electric"],
+    "lore": "Pikachu is an Electric-type Pokémon capable of storing electricity in its cheeks.",
+    "image": "/Images/Pikachu.jpg"
+  },
   {
     "id": 144,
     "name": "Articuno",
